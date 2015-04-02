@@ -13,6 +13,7 @@
 		52F3BCB71ACDBB3100044F17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F3BCB61ACDBB3100044F17 /* Images.xcassets */; };
 		52F3BCBA1ACDBB3100044F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F3BCB81ACDBB3100044F17 /* LaunchScreen.xib */; };
 		52F3BCC61ACDBB3100044F17 /* ronButtonStates2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BCC51ACDBB3100044F17 /* ronButtonStates2Tests.swift */; };
+		52F3BCD01ACDCB1C00044F17 /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BCCF1ACDCB1C00044F17 /* StyledButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		52F3BCBF1ACDBB3100044F17 /* ronButtonStates2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ronButtonStates2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F3BCC41ACDBB3100044F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F3BCC51ACDBB3100044F17 /* ronButtonStates2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ronButtonStates2Tests.swift; sourceTree = "<group>"; };
+		52F3BCCF1ACDCB1C00044F17 /* StyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				52F3BCAF1ACDBB3100044F17 /* AppDelegate.swift */,
 				52F3BCB11ACDBB3100044F17 /* ViewController.swift */,
+				52F3BCCF1ACDCB1C00044F17 /* StyledButton.swift */,
 				52F3BCB31ACDBB3100044F17 /* Main.storyboard */,
 				52F3BCB61ACDBB3100044F17 /* Images.xcassets */,
 				52F3BCB81ACDBB3100044F17 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F3BCD01ACDCB1C00044F17 /* StyledButton.swift in Sources */,
 				52F3BCB21ACDBB3100044F17 /* ViewController.swift in Sources */,
 				52F3BCB01ACDBB3100044F17 /* AppDelegate.swift in Sources */,
 			);
