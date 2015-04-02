@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52F3BCB01ACDBB3100044F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BCAF1ACDBB3100044F17 /* AppDelegate.swift */; };
+		52F3BCB21ACDBB3100044F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BCB11ACDBB3100044F17 /* ViewController.swift */; };
+		52F3BCB51ACDBB3100044F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F3BCB31ACDBB3100044F17 /* Main.storyboard */; };
+		52F3BCB71ACDBB3100044F17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F3BCB61ACDBB3100044F17 /* Images.xcassets */; };
+		52F3BCBA1ACDBB3100044F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F3BCB81ACDBB3100044F17 /* LaunchScreen.xib */; };
+		52F3BCC61ACDBB3100044F17 /* ronButtonStates2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BCC51ACDBB3100044F17 /* ronButtonStates2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52F3BCC01ACDBB3100044F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F3BCA21ACDBB3100044F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F3BCA91ACDBB3100044F17;
+			remoteInfo = ronButtonStates2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52F3BCAA1ACDBB3100044F17 /* ronButtonStates2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ronButtonStates2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F3BCAE1ACDBB3100044F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F3BCAF1ACDBB3100044F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52F3BCB11ACDBB3100044F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52F3BCB41ACDBB3100044F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52F3BCB61ACDBB3100044F17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52F3BCB91ACDBB3100044F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52F3BCBF1ACDBB3100044F17 /* ronButtonStates2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ronButtonStates2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F3BCC41ACDBB3100044F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F3BCC51ACDBB3100044F17 /* ronButtonStates2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ronButtonStates2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F3BCA71ACDBB3100044F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3BCBC1ACDBB3100044F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F3BCA11ACDBB3100044F17 = {
+			isa = PBXGroup;
+			children = (
+				52F3BCAC1ACDBB3100044F17 /* ronButtonStates2 */,
+				52F3BCC21ACDBB3100044F17 /* ronButtonStates2Tests */,
+				52F3BCAB1ACDBB3100044F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F3BCAB1ACDBB3100044F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F3BCAA1ACDBB3100044F17 /* ronButtonStates2.app */,
+				52F3BCBF1ACDBB3100044F17 /* ronButtonStates2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F3BCAC1ACDBB3100044F17 /* ronButtonStates2 */ = {
+			isa = PBXGroup;
+			children = (
+				52F3BCAF1ACDBB3100044F17 /* AppDelegate.swift */,
+				52F3BCB11ACDBB3100044F17 /* ViewController.swift */,
+				52F3BCB31ACDBB3100044F17 /* Main.storyboard */,
+				52F3BCB61ACDBB3100044F17 /* Images.xcassets */,
+				52F3BCB81ACDBB3100044F17 /* LaunchScreen.xib */,
+				52F3BCAD1ACDBB3100044F17 /* Supporting Files */,
+			);
+			path = ronButtonStates2;
+			sourceTree = "<group>";
+		};
+		52F3BCAD1ACDBB3100044F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F3BCAE1ACDBB3100044F17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52F3BCC21ACDBB3100044F17 /* ronButtonStates2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52F3BCC51ACDBB3100044F17 /* ronButtonStates2Tests.swift */,
+				52F3BCC31ACDBB3100044F17 /* Supporting Files */,
+			);
+			path = ronButtonStates2Tests;
+			sourceTree = "<group>";
+		};
+		52F3BCC31ACDBB3100044F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F3BCC41ACDBB3100044F17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F3BCA91ACDBB3100044F17 /* ronButtonStates2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F3BCC91ACDBB3100044F17 /* Build configuration list for PBXNativeTarget "ronButtonStates2" */;
+			buildPhases = (
+				52F3BCA61ACDBB3100044F17 /* Sources */,
+				52F3BCA71ACDBB3100044F17 /* Frameworks */,
+				52F3BCA81ACDBB3100044F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ronButtonStates2;
+			productName = ronButtonStates2;
+			productReference = 52F3BCAA1ACDBB3100044F17 /* ronButtonStates2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52F3BCBE1ACDBB3100044F17 /* ronButtonStates2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F3BCCC1ACDBB3100044F17 /* Build configuration list for PBXNativeTarget "ronButtonStates2Tests" */;
+			buildPhases = (
+				52F3BCBB1ACDBB3100044F17 /* Sources */,
+				52F3BCBC1ACDBB3100044F17 /* Frameworks */,
+				52F3BCBD1ACDBB3100044F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F3BCC11ACDBB3100044F17 /* PBXTargetDependency */,
+			);
+			name = ronButtonStates2Tests;
+			productName = ronButtonStates2Tests;
+			productReference = 52F3BCBF1ACDBB3100044F17 /* ronButtonStates2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F3BCA21ACDBB3100044F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Ron;
+				TargetAttributes = {
+					52F3BCA91ACDBB3100044F17 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					52F3BCBE1ACDBB3100044F17 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 52F3BCA91ACDBB3100044F17;
+					};
+				};
+			};
+			buildConfigurationList = 52F3BCA51ACDBB3100044F17 /* Build configuration list for PBXProject "ronButtonStates2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F3BCA11ACDBB3100044F17;
+			productRefGroup = 52F3BCAB1ACDBB3100044F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F3BCA91ACDBB3100044F17 /* ronButtonStates2 */,
+				52F3BCBE1ACDBB3100044F17 /* ronButtonStates2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F3BCA81ACDBB3100044F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3BCB51ACDBB3100044F17 /* Main.storyboard in Resources */,
+				52F3BCBA1ACDBB3100044F17 /* LaunchScreen.xib in Resources */,
+				52F3BCB71ACDBB3100044F17 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3BCBD1ACDBB3100044F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F3BCA61ACDBB3100044F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3BCB21ACDBB3100044F17 /* ViewController.swift in Sources */,
+				52F3BCB01ACDBB3100044F17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3BCBB1ACDBB3100044F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F3BCC61ACDBB3100044F17 /* ronButtonStates2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F3BCC11ACDBB3100044F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F3BCA91ACDBB3100044F17 /* ronButtonStates2 */;
+			targetProxy = 52F3BCC01ACDBB3100044F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52F3BCB31ACDBB3100044F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F3BCB41ACDBB3100044F17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52F3BCB81ACDBB3100044F17 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F3BCB91ACDBB3100044F17 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F3BCC71ACDBB3100044F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F3BCC81ACDBB3100044F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F3BCCA1ACDBB3100044F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ronButtonStates2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52F3BCCB1ACDBB3100044F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ronButtonStates2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52F3BCCD1ACDBB3100044F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ronButtonStates2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ronButtonStates2.app/ronButtonStates2";
+			};
+			name = Debug;
+		};
+		52F3BCCE1ACDBB3100044F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ronButtonStates2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ronButtonStates2.app/ronButtonStates2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F3BCA51ACDBB3100044F17 /* Build configuration list for PBXProject "ronButtonStates2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F3BCC71ACDBB3100044F17 /* Debug */,
+				52F3BCC81ACDBB3100044F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F3BCC91ACDBB3100044F17 /* Build configuration list for PBXNativeTarget "ronButtonStates2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F3BCCA1ACDBB3100044F17 /* Debug */,
+				52F3BCCB1ACDBB3100044F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52F3BCCC1ACDBB3100044F17 /* Build configuration list for PBXNativeTarget "ronButtonStates2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F3BCCD1ACDBB3100044F17 /* Debug */,
+				52F3BCCE1ACDBB3100044F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F3BCA21ACDBB3100044F17 /* Project object */;
+}
